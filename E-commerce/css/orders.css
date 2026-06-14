@@ -1,0 +1,83 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#f4f6f9;
+    font-family:Arial,sans-serif;
+}
+
+header{
+    background:#6c63ff;
+    color:white;
+    padding:20px 50px;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+header a{
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+}
+
+.orders-section{
+    padding:40px;
+}
+
+.orders-section h1{
+    text-align:center;
+    margin-bottom:30px;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    background:white;
+}
+
+table th,
+table td{
+    border:1px solid #ddd;
+    padding:12px;
+    text-align:center;
+}
+
+table th{
+    background:#6c63ff;
+    color:white;
+}
+
+table img{
+    width:80px;
+    height:80px;
+    object-fit:cover;
+}
+
+.qty-btn{
+    width:30px;
+    height:30px;
+    border:none;
+    background:#6c63ff;
+    color:white;
+    border-radius:5px;
+    cursor:pointer;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.bill-box{
+    margin-top:30px;
+    text-align:right;
+}
+
+.bill-box h2{
+    background:white;
+    display:inline-block;
+    padding:20px;
+    border-radius:10px;
+}
